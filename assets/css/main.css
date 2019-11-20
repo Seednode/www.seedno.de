@@ -69,7 +69,6 @@ time, mark, audio, video {
 			linear-gradient(90deg, #b0bea9 4px, transparent 4px) -2px 0;
 		background-color: #92aa83;
 		background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
-
 	}
 
 		body:after {
@@ -82,7 +81,7 @@ time, mark, audio, video {
 			height: inherit;
 			opacity: 0;
 			z-index: 1;
-			background-color: #aaaaaa;
+			background-color: #92aa83;
 			background-repeat: repeat, no-repeat;
 			background-size: 100px 100px, cover;
 			background-position: top left, center center;
