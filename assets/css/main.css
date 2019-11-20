@@ -57,14 +57,14 @@
 			height: inherit;
 			opacity: 0;
 			z-index: 1;
-			background-color: #777777;
-			background-repeat: repeat,			no-repeat;
+			background-color: #aaaaaa;
+			background-repeat: repeat, no-repeat;
 			background-size: 100px 100px, cover;
-			background-position: top left,		center center;
-			-moz-transition: opacity 1.75s ease-out;
-			-webkit-transition: opacity 1.75s ease-out;
-			-ms-transition: opacity 1.75s ease-out;
-			transition: opacity 1.75s ease-out;
+			background-position: top left, center center;
+			-moz-transition: opacity 1.5s ease-out;
+			-webkit-transition: opacity 1.5s ease-out;
+			-ms-transition: opacity 1.5s ease-out;
+			transition: opacity 1.5s ease-out;
 		}
 
 		body.is-preload:after {
