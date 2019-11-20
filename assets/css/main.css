@@ -62,11 +62,13 @@ time, mark, audio, video {
 	body {
 		margin: 0;
 		height: 100%;
-		background-color: #d3d3d3;
-		background-repeat: repeat, no-repeat, no-repeat;
-		background-size: 100px 100px, cover, cover;
-		background-position: top left, center center, bottom center;
-		background-attachment: fixed, fixed, fixed;
+		background:
+			radial-gradient(circle, transparent 20%, #92aa83 20%, #92aa83 80%, transparent 80%, transparent),
+			radial-gradient(circle, transparent 20%, #92aa83 20%, #92aa83 80%, transparent 80%, transparent) 50px 50px,
+			linear-gradient(#b0bea9 4px, transparent 4px) 0 -2px,
+			linear-gradient(90deg, #b0bea9 4px, transparent 4px) -2px 0;
+		background-color: #92aa83;
+		background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
 
 	}
 
@@ -140,12 +142,12 @@ time, mark, audio, video {
 		}
 
 		a:hover {
-			color: #3cb371;
+			color: #db8f3d;
 		}
 
 	h1 {
-		color: #3cb371;
-		text-shadow: .75px .75px #454545; 
+		color: #db8f3d;
+		text-shadow: .75px .75px #454545;
 		font-size: 2.5em;
 		font-weight: bold;
 		letter-spacing: 0.28em;
@@ -188,7 +190,7 @@ time, mark, audio, video {
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		padding: 3.75em 3em 3em 3em ;
-		background: #eeeeee;
+		background: #cdd19a;
 		box-shadow: 0 0 0 .25em #656565;
 		border-radius: 18px;
 		cursor: default;
@@ -275,6 +277,7 @@ time, mark, audio, video {
 	}
 
 		#footer .copyright {
+			color: #454545;
 			margin: 0;
 			padding: 0;
 			font-size: 0.8em;
