@@ -29,20 +29,29 @@ blockquote {
 }
 p.quote {
   text-shadow: .25px .25px #c0c0c0;
-  font-size: 17px;
+  font-size: 18px;
   text-align: justify;
   text-indent: 2vh;
 }
 p.source {
-  font-size: 14px;
+  font-size: 18px;
   text-align: right;
-  letter-spacing: -1px;
-  line-height: 4;
+  line-height: 2;
 }
 h1 {
   font-size: 18px;
   text-align: center;
 }
+@media screen and (max-width: 1080px) {
+  blockquote {
+    line-height: 1.5;
+    max-width: 45vh;
+  }
+  p.source {
+    font-size: 14px;
+    letter-spacing: -1px;
+    line-height: 4;
+  }
 </style>
 </head>
 <body>
