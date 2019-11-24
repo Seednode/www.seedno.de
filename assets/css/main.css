@@ -29,11 +29,9 @@ time, mark, audio, video {
 /* Basic */
 
 	@media screen and (max-width: 480px) {
-
 		html, body {
 			min-width: 320px;
 		}
-
 	}
 
 	html {
@@ -110,7 +108,7 @@ time, mark, audio, video {
 		@media screen and (max-width: 1680px) {
 
 			body {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -118,7 +116,7 @@ time, mark, audio, video {
 		@media screen and (max-width: 480px) {
 
 			body {
-				font-size: 10pt;
+				font-size: 12pt;
 				line-height: 1.75;
 			}
 
@@ -166,6 +164,7 @@ time, mark, audio, video {
 	ul {
 		list-style: disc;
 		margin: 0 0 1em 0;
+		line-height: 2;
 	}
 
 		ul li {
@@ -193,17 +192,17 @@ time, mark, audio, video {
 		box-shadow: 0 0 0 .25em #656565;
 		border-radius: 18px;
 		cursor: default;
-		max-width: 100%;
 		opacity: 0.95;
 		position: relative;
 		text-align: center;
-		width: 35rem;
+		width: 100%;
+		max-width: 40rem;
 	}
 
 		#main .avatar {
 			position: relative;
 			display: block;
-			margin-bottom: 1.25em;
+			margin-bottom: 1.25rem;
 		}
 
 			#main .avatar img {
@@ -228,8 +227,7 @@ time, mark, audio, video {
 		@media screen and (max-width: 480px) {
 
 			#main {
-				padding: 4em 2em 2.5em 2em ;
-				width: 100%;
+				padding: 4rem 2rem 2.5rem 2rem;
 			}
 
 				#main .avatar:before {
@@ -249,7 +247,6 @@ time, mark, audio, video {
 		#main .links {
 			text-align: center;
 			padding: .5em 1.6em 0 0;
-			font-size: 1em;
 		}
 
 			#main .links li {
