@@ -163,7 +163,7 @@ time, mark, audio, video {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 1em 0;
+		margin: 0 0 .5rem 0;
 	}
 
 		ul li {
@@ -259,6 +259,17 @@ time, mark, audio, video {
 					border-left: 0;
 				}
 
+			@media screen and (max-width: 480px) {
+				#main .links {
+					padding: .5em .5em 0 0;
+				}
+
+					#main .links li {
+						font-size: 16px;
+						padding: 0 0 0 .25rem;
+						letter-spacing: .05rem;					
+					}
+			}
 /* Footer */
 
 	#footer {
