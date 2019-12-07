@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="https://seedno.de/local/fonts/OpenSans.css">
 <title>Boots Theory</title>
 <style>
@@ -12,63 +14,50 @@
       linear-gradient(90deg, #b0bea9 4px, transparent 4px) -2px 0;
     background-color: #92aa83;
     background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
-  }
-  body {
-    font-family: Open Sans;
-    color: #454545;
-  }
-  blockquote {
-    font-size: 1em;
-    background-color: #cdd19a;
-    padding: 1rem 4rem;
-    line-height: 1.75;
-    margin: 2rem auto;
-    max-width: 35rem;
-    box-shadow: 0 0 0 .25em #656565;
-    border-radius: 18px;
-  }
-  p.quote {
-    font-size: 18px;
-    text-align: justify;
-    text-indent: 1.5rem;
-  }
-  p.source {
-    font-size: 18px;
-    text-align: left;
-  }
-  h1 {
-    font-size: 20px;
-    text-align: center;
-  }
+  }  
   a {
-    font-size: 20px;
-    text-align: center;
     color: inherit;
+    font-size: 1.5rem;
   }
   a:hover {
     color: #db8f3d;
   }
+  body {
+    font-size: 18px;
+    color: #454545;
+    font-family: Open Sans;
+    text-align: center;
+  }
+  blockquote {
+    background-color: #cdd19a;
+    border-radius: 18px;
+    box-shadow: 0 0 0 .25em #656565;
+    margin: 32px auto;
+    max-width: 35rem;
+    padding: 1rem 1.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
   hr {
-    margin: 1.5rem 0 1.5rem 0;
     border-top: 3px solid #454545;
   }
-  @media screen and (min-height: 1280px) {
+  p.quote {
+    line-height: 1.75;
+    text-align: justify;
+    text-indent: 1.5rem;
+  }
+  p.source {
+    font-size: 14px;
+    letter-spacing: -1px;
+    padding: 0 0 1rem 0;
+    text-align: left;
+  }	
+
+  /* For desktops and other wider screens */
+  @media screen and (min-width: 960px) {
     blockquote {
-      line-height: 1.5;
-      max-width: 50rem;
-      margin: 2rem;
-    }
-    h1 {
-      font-size: 18px;
-      line-height: 2;
-    }
-    p.source {
-      font-size: 12px;
-      letter-spacing: -1px;
-      line-height: 4;
-    }
-    hr {
-      margin: 0 0 50px 0;
+      padding: 1rem 4rem;
     }
   }
 </style>
